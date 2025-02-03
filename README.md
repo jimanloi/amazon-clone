@@ -1,10 +1,11 @@
-# Name of project
+# Cloning Amazon website
 
-> A longer description
+> The project aims to clone the [Amazon website](https://www.amazon.com/) in
+> order to practice HTML & CSS skills.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Cloning Amazon website](#cloning-amazon-website)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +23,7 @@
 
 ## General info
 
-> A short description
+> To clone amazon.com using only HTML and CSS.
 
 ## Screenshots
 
@@ -30,21 +31,20 @@
 
 ## Technologies
 
-- Node 14.16.0
+- Node v22.13.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
 - `npm run start`
+- `npm i`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<title>Amazon.com. Spend less. Smell more.</title>
 ```
 
 ## Features
@@ -66,11 +66,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Manloi
 
 ## Contact
 
-By [Name]
+<jimanloi@hotmail.com>
 
 ## Instructions for use
 
