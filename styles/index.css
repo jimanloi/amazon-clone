@@ -1,8 +1,13 @@
-@import url("./something.css");
+@import url("./header.css");
+@import url("./main.css");
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, serif;
+}
+
+main {
+  background-color: #e3e6e6;
 }
