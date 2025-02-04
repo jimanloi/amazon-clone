@@ -1,0 +1,121 @@
+.hero-content {
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  overflow: visible;
+}
+
+.hero-content img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mask-image: linear-gradient(to bottom, #ffe0e5 50%, transparent);
+}
+
+.preview-grid-nine {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  height: 820px;
+}
+
+.one-grid {
+  z-index: 999;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 300px;
+
+  /* min-width: 306px;
+  max-width: 370px; */
+
+  height: 380px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.top-things-bar {
+  max-width: 100%;
+  height: 280px;
+  background-color: #ffff;
+  margin: 0 24px;
+}
+
+.grid-title {
+  padding: 0 5px;
+}
+
+.grid-title h3 {
+  font-size: 18px;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.four-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  width: 95%;
+  height: 75%;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.one-of-four-pic {
+  display: grid;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.one-of-four-pic:hover {
+  cursor: pointer;
+}
+
+.one-of-four-pic img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+
+.one-of-four-title {
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 5px;
+  color: #535353;
+  margin-top: 0;
+}
+
+.see-more-container {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #2e59b8;
+}
+
+.see-more:hover {
+  cursor: pointer;
+  color: #393939;
+}
+
+.one-pic {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 75%;
+  padding: 5px;
+}
+
+.one-pic img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
