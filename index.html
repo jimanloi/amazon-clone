@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon.com. Spend less. Smile more.</title>
+
+  <link href="./styles/index.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/0721cd3fed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+
+      <div class="logo">
+        <img src="./assets/amazon-logo.png" alt="logo">
+      </div>
+
+      <div class="location">
+
+        <div class="location-pin">
+          <a><i class="fa-solid fa-location-dot"></i></a>
+        </div>
+
+        <div class="delivery">
+          <span id="deliver-to">Deliver to</span>
+          <span id="belgium">Belgium</span>
+
+        </div>
+      </div>
+
+      <div class="search-bar">
+
+        <div class="search-bar-left">
+          <span id="search-bar-all">All</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+        <input id="search-amazon" type="text" placeholder="Search Amazon">
+
+        <div class="search-button">
+          <a><i class="fas fa-search"></i></a>
+        </div>
+
+      </div>
+
+      <div class="header-right">
+
+        <div class="language">
+          <img src="./assets/EN-US.png" alt="EN-US">
+          <span>EN</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+        <div class="hello-sign-in">
+          <span class="hello">Hello, sign in</span>
+          <span class="account-lists">Account &amp; Lists <i class="fa-solid fa-caret-down"></i></span>
+        </div>
+
+        <div class="return-orders">
+          <span class="hello">Returns</span>
+          <span class="account-lists">& Orders</span>
+        </div>
+
+        <div class="cart">
+          <span id="cart-number">0</span>
+          <img src="./assets/shopping-cart.png" alt="cart">
+          <span id="cart-word">Cart</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="navbar-container">
+      <div class="navbar-hamburger-menu"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;All</div>
+      <div class="navbar-items">
+        <a href="">Today's Deals</a>
+        <a href="">Customer Service</a>
+        <a href="">Registry</a>
+        <a href="">Gift Cards</a>
+        <a href="">Sell</a>
+      </div>
+    </div>
+  </header>
+</body>
+
 </html>
