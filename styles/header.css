@@ -1,8 +1,8 @@
-header {
+/* header {
   position: sticky;
   top: 0;
   z-index: 9999;
-}
+} */
 
 .header-container {
   background-color: #131921;
@@ -22,6 +22,7 @@ header {
   padding-left: 13px;
   padding-right: 8px;
   margin: 0;
+  border: 1px solid transparent;
 }
 
 .logo:hover {
@@ -40,6 +41,7 @@ header {
   height: 50px;
   width: 80px;
   padding: 0 2px;
+  border: 1px solid transparent;
 }
 
 .location:hover {
@@ -97,11 +99,15 @@ header {
   background-color: #e6e6e6;
   color: #535353;
   font-size: 11px;
-  border: 0;
-  height: 38px;
+  height: 36px;
   width: auto;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.search-bar-left:hover {
+  cursor: pointer;
 }
 
 #search-bar-all {
@@ -122,6 +128,10 @@ header {
   font-weight: 500;
 }
 
+#search-amazon:focus {
+  outline: none;
+}
+
 .search-button {
   display: flex;
   background-color: #febd69;
@@ -132,6 +142,11 @@ header {
   font-size: 1.3rem;
   align-items: center;
   justify-content: center;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  background-color: #fcac44;
 }
 
 /* Right part of header */
@@ -152,6 +167,7 @@ header {
   font-weight: 600;
   margin-left: 15px;
   align-items: center;
+  border: 1px solid transparent;
 }
 
 .language:hover {
@@ -179,10 +195,11 @@ header {
 .hello-sign-in {
   display: flex;
   flex-direction: column;
-  width: 105px;
+  width: 107px;
   padding: 8px;
   line-height: 0.7;
   justify-content: center;
+  border: 1px solid transparent;
 }
 
 .hello-sign-in:hover {
@@ -204,7 +221,8 @@ header {
   flex-direction: column;
   justify-content: center;
   width: 60px;
-  padding: 8px;
+  padding: 8px 0 8px 4px;
+  border: 1px solid transparent;
 }
 
 .return-orders:hover {
@@ -214,9 +232,11 @@ header {
 
 .cart {
   display: flex;
-  width: 66px;
+  width: 60px;
   padding-top: 10px;
+  padding-right: 10px;
   justify-content: center;
+  border: 1px solid transparent;
 }
 
 .cart:hover {
@@ -231,9 +251,9 @@ header {
 }
 
 #cart-number {
-  position: absolute;
-  top: 10px;
-  right: 50px;
+  position: relative;
+  left: 26px;
+  top: -5px;
   color: #d87f0b;
   font-weight: 600;
   font-size: 1rem;
@@ -263,17 +283,20 @@ header {
   text-decoration: none;
   color: #ffff;
   padding: 10px 5px;
+  border: 1px solid transparent;
 }
 
 .navbar-container a:hover {
   cursor: pointer;
   border: 1px solid #ffff;
+  overflow: hidden;
 }
 
 .navbar-hamburger-menu {
   margin-left: 5px;
-  padding: 8px;
+  padding: 9px;
   font-weight: 600;
+  border: 1px solid transparent;
 }
 
 .navbar-hamburger-menu:hover {
