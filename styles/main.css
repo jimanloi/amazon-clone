@@ -1,3 +1,12 @@
+.products-preview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e6e6;
+}
+
 .hero-content {
   justify-content: center;
   width: 100%;
@@ -119,7 +128,6 @@
   background-color: #ffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   overflow: hidden;
 }
 
@@ -130,7 +138,6 @@
 .horizontal-six-photos {
   display: flex;
   flex-direction: row;
-  padding: 10px;
   overflow: hidden;
   width: 100%;
   max-height: 200px;
@@ -151,4 +158,41 @@
 .some-space {
   width: 100%;
   height: 30px;
+}
+
+.personalized-recommendations {
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px 20px;
+}
+
+.end-container {
+  border: 1px solid #dadada;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  padding: 15px 0 5px;
+}
+
+.end-container button {
+  background-color: #f4d753;
+  width: 220px;
+  padding: 7px;
+  border: none;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.end-container button:hover {
+  cursor: pointer;
+  background-color: #ecca31;
+}
+
+.end-container p {
+  line-height: 0;
+  font-size: 0.7rem;
 }
