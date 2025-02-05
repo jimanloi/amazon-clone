@@ -12,7 +12,7 @@
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
-  - [Features](#features)
+  <!-- - [Features](#features) -->
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
@@ -27,7 +27,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/screenshot-amazon.png)
 
 ## Technologies
 
@@ -47,7 +47,7 @@
 <title>Amazon.com. Spend less. Smell more.</title>
 ```
 
-## Features
+<!-- ## Features
 
 List of features ready and Todos for future development
 
@@ -58,11 +58,11 @@ List of features ready and Todos for future development
 To-do list:
 
 -
--
+- -->
 
 ## Status
 
-Project is: _in progress_
+Project is: _finished_
 
 ## Inspiration
 
